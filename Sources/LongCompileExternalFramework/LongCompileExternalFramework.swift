@@ -20,7 +20,11 @@ public let __tmp17 = 2 * 2 * 2 * 2.0 / 2 + 2
 public let __tmp18 = 2 * 2 * 2 * 2.0 / 2 + 2
 public let __tmp19 = 2 * 2 * 2 * 2.0 / 2 + 2
 
-struct LongCompileExternalFramework {
+public struct LongCompileExternalFramework {
 
-    public let theMeaningOfLife = 42
+    public let theMeaningOfLife: Int
+
+    public init() {
+        theMeaningOfLife = 42
+    }
 }
